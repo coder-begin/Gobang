@@ -1,0 +1,44 @@
+/* Base Application Styles */
+body {
+  color: #fff;
+  background: #222;
+}
+.index{
+  overflow: hidden;
+  color: #00d6b2;
+  position: relative;
+  margin: 50px auto;
+  width: 800px;
+  height: 550px;
+  background-color: #fff;
+}
+.stage{
+  float: left;
+  width: 500px;
+  height: 500px;
+  background-color:red;
+  margin: 20px 0 0 20px;
+}
+.count{
+  float: left;
+  width: 240px;
+  height: 500px;
+  background-color:blue;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+.score p{
+  font-size: 20px;
+  margin: 50px 0 0 40px;
+}
+.score button{
+  width: 140px;
+  height: 50px;
+  text-align: center;
+  margin: 80px 0 0 50px;
+}
+.endTime{
+  font-size: 40px;
+  margin: 80px 0 0 90px;
+}
